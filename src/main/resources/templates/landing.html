@@ -1,0 +1,23 @@
+<!doctype html>
+<html
+  lang="en"
+  xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <title>KeyCloak Spring Security SAML: Home</title>
+</head>
+<body>
+
+<h3><Strong>SAML 2.0 authentication!</strong><br/>You are successfully logged in!</h3>
+<p><strong>You are logged as <span class="badge badge-dark" th:text="${username}">null</span>.</strong></p>
+<small>
+    <a th:href="@{/saml/logout}" >
+        <i></i> Global logout
+    </a>
+    <br>
+    <a th:href="@{/saml/logout?local=true}">
+        <i></i> Local logout
+    </a>
+</small>
+</body>
+</html>
