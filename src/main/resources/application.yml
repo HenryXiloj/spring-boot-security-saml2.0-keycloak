@@ -5,3 +5,15 @@ server:
 spring:
   main:
     allow-circular-references: true
+
+keycloak:
+  client: spring-boot-keycloak
+
+saml:
+  keystore:
+    path: classpath:/saml/keystore.jksa
+    password: store123
+    alias: spring-boot-keycloak
+  url:
+    descriptor: http://localhost:8080/realms/IDP_REALM/protocol/saml/descriptor
+
