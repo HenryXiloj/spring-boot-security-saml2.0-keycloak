@@ -11,7 +11,7 @@ keycloak:
 
 saml:
   keystore:
-    path: classpath:/saml/keystore.jksa
+    path: classpath:/saml/keystore.jks
     password: store123
     alias: spring-boot-keycloak
   url:
