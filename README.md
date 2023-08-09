@@ -2,8 +2,8 @@
  
  Single Sign-On With SAML 2.0, Spring Boot - Security and Keycloak 18.0.1
  
-# Docker
-docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:18.0.1 start-dev
+# Docker compose run
+ docker-compose -f docker-compose-keycloak18.yml up -d
 
 # Detailed description and steps for run project found here: 
 https://jarmx.blogspot.com/2022/09/single-sign-on-with-saml-20-spring-boot.html
