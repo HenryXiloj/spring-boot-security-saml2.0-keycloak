@@ -6,7 +6,7 @@
  docker-compose -f docker-compose-keycloak18.yml up -d
 
 # Step 2: Spring Boot run project:
-spring-boot:run
+mvn spring-boot:run
 
 # Step 3: Go to:
 http://localhost:8081/
