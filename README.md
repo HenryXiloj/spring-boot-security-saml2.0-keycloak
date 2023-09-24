@@ -3,7 +3,7 @@
  Single Sign-On With SAML 2.0, Spring Boot - Security and Keycloak 18.0.1
  
 # Step 1: Start Keycloak
- docker-compose -f docker-compose-keycloak18.yml up -d
+ docker-compose -f docker-compose-keycloak18.yml up
 
 # Step 2: Spring Boot run project:
 mvn spring-boot:run
