@@ -1,7 +1,5 @@
 # 🔐 Spring Boot SAML 2.0 SSO with Keycloak 18.0.1
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-
 This project demonstrates how to implement **Single Sign-On (SSO)** using the **SAML 2.0 protocol** with **Spring Boot** as the service provider (SP) and **Keycloak 18.0.1** as the identity provider (IdP).
 
 🔗 [Read the Full Guide on jarmx.blogspot.com »](https://jarmx.blogspot.com/2022/09/single-sign-on-with-saml-20-spring-boot.html)
@@ -136,8 +134,4 @@ src/
 📦 Source Code:
 👉 [GitHub Repository](https://github.com/HenryXiloj/spring-boot-security-saml2.0-keycloak)
 
----
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
